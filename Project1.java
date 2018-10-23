@@ -52,7 +52,7 @@ public class Project1
         String compression2 = huffmanCodingTreeMultithread.getCompressionMultithread(threadCount);
         endTime = System.currentTimeMillis();
         System.out.println("Time to encode file: " + (endTime-startTime) + " ms.");
-        System.out.println(compression2);
+//        System.out.println(compression2);
         writeToFile("compressedMultithread.txt", compression2);
         
 //         // output decompressed input       
